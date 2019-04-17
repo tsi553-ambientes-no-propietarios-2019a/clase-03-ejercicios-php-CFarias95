@@ -11,5 +11,27 @@ Hacer un programa que lo muestre por pantalla al valor generado. Mostrar además
 Para imprimir el contenido de una variable también utilizamos el comando echo:
 
 echo $num;
+
+
  */
+ 
+ 
+ $num = rand(1,100);
+ 
+ if($num<50){
+	 echo" El numero: $num es menor que 50";
+	 
+	}elseif($num===50){
+		echo"El numero $num es igual a 50";
+	}elseif($num>50){
+		echo"El numero: $num es mayor a 50";
+	}
+ 
+ 
+ 
+ 
 ?>
+
+
+
+
